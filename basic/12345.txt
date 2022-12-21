@@ -1,0 +1,9 @@
+ /*is a class but treated as a data type*/
+        Car porsche = new Car(); // create new object named porsche
+        //porsche.model = "Carrera"; //to porsche einai to object pou dimiourghsame. to model einai ena apo ta fields. an einai private den pernaei h timi kai giauto vgazei error
+
+        System.out.println("Model is " + porsche.getModel());//edw vleppoume afou den exoume valei sto object porsche tin method tis klashs CCAR na parei mia parametro pernoume null san apotelsma
+        porsche.setModel("Carrera");
+        System.out.println("Model is " + porsche.getModel());
+
+        Car holden = new Car();
